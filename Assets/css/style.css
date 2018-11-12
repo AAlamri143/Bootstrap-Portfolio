@@ -6,24 +6,29 @@
 body {
 	height: 100%;
 	margin:0;
+	background: purple;
 
 }
+
 
 
 
 .icon-bar {
-	background-color: white;
+	background-color: rgb(189, 148, 148);
 }
 
 .navbar-header h1{
-	color: white;
+	width: 300px;;
+	font-size: 50px;
+	font-family: 'Great Vibes', cursive;
+	color: rgb(189, 148, 148);
 	font-weight: bold;
-	margin-left:20px;
+	margin-left:60PX;
 }
 
 
 .navbar {
-	background-color: #4aaaa5;
+	background-image: url("../images/backgroundlala.gif");
 	border-bottom: 4px solid #666666;
 	margin-bottom: 0px;
 }
@@ -31,20 +36,32 @@ body {
 
 
 
+
 .nav li a{
+	font-size: 20px;
+	font-family: 'Great Vibes', cursive;
 	min-width: 100px;
 	line-height: 45px;
-	color:white;
+	color:rgb(189, 148, 148);
 	text-align: center;
 	font-weight: bold;
 	padding-right: 10px; 
+	margin-top: 10px;
 	display:block;
 }
 
 .nav li a:hover{
-	color:#4aaaa5;
+	background-image: url(../images/fireworks.gif);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color:#dddddd;
 	
 	}
+.nav li a:active {
+	color: purple;
+	
+}
 
 .navbar-right{
 	display: block;
@@ -57,12 +74,12 @@ body {
 }
 
 .active {
-	background-color: #3F8B87;
+	background-color: purple;
 }
 
 .container-fluid {
 
-	background-image: url("../images/concrete_subtle.png");
+	background-image: url("../images/backgrounds-wallpaper.jpg");
 	border-radius:5px;
 }
 
@@ -71,14 +88,12 @@ body {
 }
 
 .container h2 {
-	color: #4aaaa5;
-	font-family: Georgia, Times, "Times New Roman", serif;
 	margin-bottom:10px;
 	font-weight: bold;
 }
 .container h3 {
-	color: #4aaaa5;
-	font-family: Georgia, Times, "Times New Roman", serif;
+	color: purple;
+	font-family: 'Great Vibes', cursive;
 	margin-bottom:10px;
 	font-weight: bold;
 }
@@ -93,6 +108,9 @@ body {
 }
 
 .content h2 {
+	font-family: 'Great Vibes', cursive;
+	color: purple;
+	font-weight: bold;
 	padding-left:20px;
 }
 
@@ -112,7 +130,7 @@ body {
 	margin-left: 0px;
 }
 .about_me {
-	font-size:2.2vh;
+	font-size: 20px;
 	text-align: center;
 }
 
@@ -123,14 +141,13 @@ body {
 
 .port_name {
 	height: 30%;
-	font-size: 3vh;
+	font-size: 16px;
 	font-style: bold;
-	font-family: sans-serif;
 	width:100%;
 	text-align: center;
-	background-color: #4aaaa5;
+	background-color: purple;
 	color:#ffffff;
-	font-family: Times;
+	font-family: 'Great Vibes', cursive;
 	position:relative;
 	bottom: 70px;
 }
@@ -141,6 +158,7 @@ body {
 }
 
 .form-group {
+	color: purple;
 	margin:0px 20px 20px 20px;
 }
 
@@ -164,9 +182,9 @@ body {
 
 footer {
 	color: #dddddd;
-	border-top: 10px solid #4aaaa5;
+	border-top: 6px solid #666666;
 	border-radius: 5px;
-	background-color: #666666;
+	background-image: url(../images/backgroundlala.gif);
 	height: 100px;
 	width:100%;
 	line-height: 60px;
@@ -181,7 +199,9 @@ button[type=submit]{
   width:150px;
   padding:10px;
   margin: 0px 0px 20px 20px;
-  background-color:#4aaaa5;
+  background-color:purple;
   color:white;
   font-weight:bold;
 }
+
+
