@@ -23,14 +23,16 @@ body {
 	font-family: 'Great Vibes', cursive;
 	color: rgb(189, 148, 148);
 	font-weight: bold;
-	margin-left:60PX;
+	margin-left:60px;
 }
 
 
 .navbar {
 	background-image: url("../images/backgroundlala.gif");
 	border-bottom: 4px solid #666666;
+	border-radius:0px;
 	margin-bottom: 0px;
+	
 }
 
 
@@ -80,13 +82,55 @@ body {
 .container-fluid {
 
 	background-image: url("../images/backgrounds-wallpaper.jpg");
-	border-radius:5px;
+	/* border-radius:5px; */
 }
 
 .row {
 	margin:0;
+	margin-bottom: 50px;
 }
 
+.inside {
+	width: 250px;
+	height: 100px;
+	margin-left: 9px;
+	margin-bottom: 90px;
+	
+	-webkit-transition:all .1s linear;
+    -moz-transition:all .1s linear;
+    -o-transition:all .1s linear;
+    transition:all .1s linear;
+    -moz-border-radius:10px 10px 10px 10px ;
+    -webkit-border-radius:10px 10px 10px 10px ;
+    border-radius:10px 10px 10px 10px ;
+}
+
+.inside:hover {
+    color: white;
+
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    transform: scale(1.09);
+
+    -webkit-transition:all .1s linear;
+    -moz-transition:all .1s linear;
+    -o-transition:all .1s linear;
+    transition:all .1s linear;
+    -moz-border-radius:10px 10px 10px 10px ;
+    -webkit-border-radius:10px 10px 10px 10px ;
+    border-radius:10px 10px 10px 10px ;
+    }
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+	
 .container h2 {
 	margin-bottom:10px;
 	font-weight: bold;
@@ -141,7 +185,7 @@ body {
 }
 
 .port_name {
-	height: 30%;
+	height: 17%;
 	font-size: 16px;
 	font-style: bold;
 	width:100%;
@@ -151,7 +195,34 @@ body {
 	font-family: 'Great Vibes', cursive;
 	position:relative;
 	bottom: 70px;
+
+	
+	-webkit-transition:all .1s linear;
+    -moz-transition:all .1s linear;
+    -o-transition:all .1s linear;
+    transition:all .1s linear;
+    -moz-border-radius:10px 10px 10px 10px ;
+    -webkit-border-radius:10px 10px 10px 10px ;
+    border-radius:10px 10px 10px 10px ;
 }
+
+.port_name:hover {
+    color: white;
+
+	-webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    transform: scale(1.03);
+
+    -webkit-transition:all .1s linear;
+    -moz-transition:all .1s linear;
+    -o-transition:all .1s linear;
+    transition:all .1s linear;
+    -moz-border-radius:10px 10px 10px 10px ;
+    -webkit-border-radius:10px 10px 10px 10px ;
+    border-radius:10px 10px 10px 10px ;
+    }
+
+
 
 .port_name h4 {
 	margin:0px;
@@ -184,8 +255,8 @@ body {
 footer {
 	color: #dddddd;
 	border-top: 6px solid #666666;
-	border-radius: 5px;
-	background-image: url(../images/backgroundlala.gif);
+	/* border-radius: 5px; */
+	background-image: url("../images/backgroundlala.gif");
 	height: 100px;
 	width:100%;
 	line-height: 60px;
@@ -205,4 +276,20 @@ button[type=submit]{
   font-weight:bold;
 }
 
+@media screen and (min-width: 500px) and (max-width: 2000px){
+    .inside {
+		width: 85%;
+		height: 200px;
+		margin-left: 9px;
+		margin-bottom: 15%;
 
+	}  
+		
+@media screen and (min-width: 100px) and (max-width: 770px){
+	.inside {
+		width: 85%;
+		height: 200px;
+		margin-left: 5%;
+		margin-bottom: 30%;
+
+	}  
