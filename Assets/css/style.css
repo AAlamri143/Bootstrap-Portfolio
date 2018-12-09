@@ -185,8 +185,8 @@ body {
 }
 
 .port_name {
-	height: 17%;
-	font-size: 16px;
+	height: 25%;
+	font-size: 35px;
 	font-style: bold;
 	width:100%;
 	text-align: center;
@@ -194,37 +194,42 @@ body {
 	color:#ffffff;
 	font-family: 'Great Vibes', cursive;
 	position:relative;
-	bottom: 70px;
+	bottom: 100px;
+	padding: .7px;
 
 	
 	-webkit-transition:all .1s linear;
     -moz-transition:all .1s linear;
     -o-transition:all .1s linear;
     transition:all .1s linear;
-    -moz-border-radius:10px 10px 10px 10px ;
+    /* -moz-border-radius:10px 10px 10px 10px ;
     -webkit-border-radius:10px 10px 10px 10px ;
-    border-radius:10px 10px 10px 10px ;
+    border-radius:10px 10px 10px 10px ; */
 }
 
 .port_name:hover {
     color: white;
+	font-size: 40px;
+	-webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    transform: scale(1.07);
 
-	-webkit-transform: scale(1.03);
-    -moz-transform: scale(1.03);
-    transform: scale(1.03);
-
+	opacity: .9;
     -webkit-transition:all .1s linear;
     -moz-transition:all .1s linear;
     -o-transition:all .1s linear;
     transition:all .1s linear;
-    -moz-border-radius:10px 10px 10px 10px ;
-    -webkit-border-radius:10px 10px 10px 10px ;
-    border-radius:10px 10px 10px 10px ;
-    }
+    -moz-border-radius:5px 5px 5px 5px ;
+    -webkit-border-radius:5px 5px 5px 5px  ;
+    border-radius:5px 5px 5px 5px  ;
+	}
+	
+
 
 
 
 .port_name h4 {
+	font-size: 30px;
 	margin:0px;
 	padding:10px;
 }
@@ -280,12 +285,12 @@ button[type=submit]{
     .inside {
 		width: 85%;
 		height: 200px;
-		margin-left: 9px;
+		margin-left: 5%;
 		margin-bottom: 15%;
 
 	}  
 		
-@media screen and (min-width: 100px) and (max-width: 770px){
+@media screen and (min-width: 0) and (max-width: 770px){
 	.inside {
 		width: 85%;
 		height: 200px;
