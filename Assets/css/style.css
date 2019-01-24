@@ -308,6 +308,9 @@ button[type=submit]{
 		font-family: 'Great Vibes', cursive;
 		font-weight: bold;
 	}
+	.about_me img{
+		margin-left: 4%;
+	}
 
 
 }
