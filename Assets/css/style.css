@@ -298,8 +298,8 @@ button[type=submit]{
 	}
 	.navbar-header{
 		position: relative;
-		padding-left: 6%;
-		width: 104%;
+		padding-left: 0%;
+		width: 105%;
 	}
 	.navbar-header h1{
 		width: 100%;
@@ -308,8 +308,6 @@ button[type=submit]{
 		font-family: 'Great Vibes', cursive;
 		font-weight: bold;
 	}
-	.content img {
-		margin-left: 4%;
-	}
+
 
 }
