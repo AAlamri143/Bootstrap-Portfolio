@@ -2,69 +2,70 @@
 	box-sizing: border-box;
 	text-decoration: none;
 }
-
 body {
 	height: 100%;
 	margin:0;
 	background: purple;
-
 }
-
-
-
-
 .icon-bar {
-	background-color: rgb(189, 148, 148);
-}
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 3px  #ff0000;
 
+}
 .navbar-header h1{
 	width: 300px;;
 	font-size: 50px;
 	font-family: 'Great Vibes', cursive;
-	color: rgb(189, 148, 148);
+	color: rgb(255, 255, 255);
 	font-weight: bold;
 	margin-left:60px;
-}
+	text-shadow: 2px 2px 3px  #ff0000;
 
+}
+.container {
+	margin-left: 0;
+}
+.container #myNavbar{
+	position: absolute;
+	/* margin-left: 335px; */
+	margin-left: 45%;
+
+	margin-right: 0px;
+	width: 50%;
+	/* margin-right: 145px; */
+}
 
 .navbar {
 	background-image: url("../images/backgroundlala.gif");
 	border-bottom: 4px solid #666666;
 	border-radius:0px;
 	margin-bottom: 0px;
-	
 }
-
-
-
-
-
 .nav li a{
-	font-size: 20px;
+	font-size: 30px;
 	font-family: 'Great Vibes', cursive;
 	min-width: 100px;
 	line-height: 45px;
-	color:rgb(189, 148, 148);
+	color: rgb(255, 255, 255);
 	text-align: center;
 	font-weight: bold;
 	padding-right: 10px; 
 	margin-top: 10px;
 	display:block;
-}
+	text-shadow: 2px 2px 3px  #ff0000;
 
+}
 .nav li a:hover{
 	background-image: url(../images/fireworks.gif);
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 	color:#dddddd;
-	
+	border-radius: 50%;
 	}
 .nav li a:active {
 	color: purple;
-	
 }
-
 .navbar-right{
 	display: block;
 }
@@ -74,28 +75,22 @@ body {
 .navbar-right li{
 	display: block;
 }
-
 .active {
 	background-color: purple;
 }
-
 .container-fluid {
-
 	background-image: url("../images/backgrounds-wallpaper.jpg");
 	/* border-radius:5px; */
 }
-
 .row {
 	margin:0;
 	margin-bottom: 50px;
 }
-
 .inside {
 	width: 250px;
 	height: 100px;
 	margin-left: 9px;
 	margin-bottom: 90px;
-	
 	-webkit-transition:all .1s linear;
     -moz-transition:all .1s linear;
     -o-transition:all .1s linear;
@@ -104,14 +99,11 @@ body {
     -webkit-border-radius:10px 10px 10px 10px ;
     border-radius:10px 10px 10px 10px ;
 }
-
 .inside:hover {
     color: white;
-
     -webkit-transform: scale(1.09);
     -moz-transform: scale(1.09);
     transform: scale(1.09);
-
     -webkit-transition:all .1s linear;
     -moz-transition:all .1s linear;
     -o-transition:all .1s linear;
@@ -120,7 +112,6 @@ body {
     -webkit-border-radius:10px 10px 10px 10px ;
     border-radius:10px 10px 10px 10px ;
     }
-
 @keyframes fadein {
     from {
         opacity:0;
@@ -129,8 +120,6 @@ body {
         opacity:1;
     }
 }
-
-	
 .container h2 {
 	margin-bottom:10px;
 	font-weight: bold;
@@ -141,7 +130,6 @@ body {
 	margin-bottom:10px;
 	font-weight: bold;
 }
-
 .content {
 	background-color: #ffffff;
 	border: 1px solid #dddddd; 
@@ -150,40 +138,33 @@ body {
 	margin: 20px 0px 20px 0px;
 	overflow-y: auto;
 }
-
 .content h2 {
 	font-family: 'Great Vibes', cursive;
 	color: purple;
-	font-weight: bold;
+	font-weight: bolder;
 	padding-left:20px;
+
 }
-
-
 .content p {
 	padding: 0px 20px 0px 20px;
 
 }
-
 .content hr {
 	border:2px solid #dddddd;
 	margin:0px 20px 20px 20px;
 	}
-
 .content img {
 	margin-bottom: 20px;
 	margin-left: 0px;
 }
-
 .about_me {
 	font-size: 20px;
 	text-align: center;
 }
-
 .quote {
 	float: right;
 
 }
-
 .port_name {
 	height: 25%;
 	font-size: 35px;
@@ -206,14 +187,12 @@ body {
     -webkit-border-radius:10px 10px 10px 10px ;
     border-radius:10px 10px 10px 10px ; */
 }
-
 .port_name:hover {
     color: white;
 	font-size: 40px;
 	-webkit-transform: scale(1.07);
     -moz-transform: scale(1.07);
     transform: scale(1.07);
-
 	opacity: .9;
     -webkit-transition:all .1s linear;
     -moz-transition:all .1s linear;
@@ -223,22 +202,15 @@ body {
     -webkit-border-radius:5px 5px 5px 5px  ;
     border-radius:5px 5px 5px 5px  ;
 	}
-	
-
-
-
-
 .port_name h4 {
 	font-size: 30px;
 	margin:0px;
 	padding:10px;
 }
-
 .form-group {
 	color: purple;
 	margin:0px 20px 20px 20px;
 }
-
 .connect_margin {
 	text-align: center;
 	background-color: #ffffff;
@@ -247,16 +219,13 @@ body {
 	color: #777777;
 	margin: 20px 0px 20px 0px;
 }
-
 .connect_margin hr {
 	border:1px solid #dddddd;
 	margin: 0px 20px 20px 20px;
 	}
-
 .connect_margin img {
 	margin-bottom: 20px;
 }	
-
 footer {
 	color: #dddddd;
 	border-top: 6px solid #666666;
@@ -271,7 +240,6 @@ footer {
 	bottom: 0px;
 	position:relative;
 }
-
 button[type=submit]{
   width:150px;
   padding:10px;
@@ -280,21 +248,32 @@ button[type=submit]{
   color:white;
   font-weight:bold;
 }
-
 @media screen and (min-width: 500px) and (max-width: 2000px){
     .inside {
 		width: 85%;
 		height: 200px;
 		margin-left: 5%;
 		margin-bottom: 15%;
-
 	}  
-		
+
+}
 @media screen and (min-width: 0) and (max-width: 770px){
 	.inside {
 		width: 85%;
 		height: 200px;
 		margin-left: 5%;
 		margin-bottom: 30%;
-
-	}  
+	}
+	.container #myNavbar{
+		position: relative;
+		margin-left: 0;
+		width: 100%;
+	}
+	.navbar-header h1{
+		width: 280px;
+		font-size: 50px;
+		font-family: 'Great Vibes', cursive;
+		font-weight: bold;
+		margin-left: 20%;
+	}
+}
