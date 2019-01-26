@@ -1,97 +1,112 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Bootstrap Portfolio</title>
-  <meta charset="utf-8">
+  <head>
+    <title>Bootstrap Portfolio</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Allura|Courgette|Great+Vibes|Yellowtail" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+    crossorigin="anonymous">
+    <!-- CSS animation library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
-</head>
-<body>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class=" navbar">
+        <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+					<h1 class="animated fadeInLeft">Abdullah Alamri</h1>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="animated fadeInRight nav navbar-nav navbar-right">
+              <li><a href="index.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li> 
+              <li><a href="contact.html">Contact</a></li> 
+            </ul>
+          </div>
+        </div>
+      </nav>  
+      <div class="container-fluid main-content">
+        <div class="row">
+          <section id="contact" class="animated slideInLeft delay-1s container col-xl-6 col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            <div class="content">
+              <h2>Contact Me</h2>
+              <hr>
+              <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                  <label for="usr">Name:</label>
+                  <input type="text" class="form-control" id="usr" placeholder="Abdullah Alamri" required name="name">
+                </div>
+                <div class="form-group">
+                  <label for="Email">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="abdullah_sc@hotmail.com" required name="mail">
+                </div>
+                <div class="form-group">
+                  <label for="comment">Message:</label>
+                  <textarea class="form-control" rows="10" id="comment" placeholder="Comment" required name="comment"></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="comment"></label>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>  
+          </section>
+					<section id="connect" class="animated fadeInUpBig delay-1s container col-md-3 col-sm-12 col-xs-12">
+              <div class="connect_margin">  
+                <h3>Connect with Me</h3>
+                <hr style="box-shadow:  0px 0px 20px 5px  #3d0057; border-radius: 33%;">
+                <a href="Assets/images/cv-jan-2019.pdf" target="_blank" data-type="document" role="button" id="comp-irlzpov0link" class="g-transparent-a b1link"><span id="comp-irlzpov0label" class="b1label"><img src="Assets/images/cv.png" alt="Github" height="60px" width="60px"></span></a>
+                <a href="https://github.com/AAlamri143" target="_blank" data-type="document" role="button" id="comp-irlzpov0link" class="g-transparent-a b1link"><span id="comp-irlzpov0label" class="b1label"></span><img src="Assets/images/github1.png" alt="Github" height="60px" width="60px"></span></a>
+                <a href="https://www.linkedin.com/in/abdulla-alamri-6a27a824/" target="_blank" data-type="document" role="button" id="comp-irlzpov0link" class="g-transparent-a b1link"><span id="comp-irlzpov0label" class="b1label"></span><img src="Assets/images/linkedin.gif" alt="LinkedIn" height="60px" width="60px"></span></a>
+                <a href="https://www.facebook.com/abdullah.s.alamri" target="_blank" data-type="document" role="button" id="comp-irlzpov0link" class="g-transparent-a b1link"><span id="comp-irlzpov0label" class="b1label"></span><img src="Assets/images/facebook.png" alt="Facebook" height="60px" width="60px"></span></a>
+                <a href="https://www.youtube.com/channel/UCGBom8n28boaJzy3ypuWVow?view_as=subscriber"><img src="Assets/images/youtube.png" alt="Youtube" height="60px" width="60px"></a> 
+                <hr style="box-shadow:  0px 0px 20px 5px  #3d0057; border-radius: 33%;">
+                <div class="secondT">
+                  <div class="titleT">
+                    <div class="card-header"><i class="far fa-address-card"></i>  Personal Contact
+                      <a data-toggle="collapse" href="#collapse1"><i class="adding1"><p><i class="fas fa-angle-double-down"></i></p></i></a>
+                    </div>
+                  </div>
+                  <div id="collapse1" class="panel-collapse collapse">
+                  <!-- Add ID  -->
+                    <div class="card-bodyT">
+                      <p class="info11">
+                        <p>Name: &nbsp &nbsp  Abdullah Alamri &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p>
+                      </p>
+                      <p class="info11">
+                        <p>Phone: &nbsp +1 (202) 808-1055 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </p>
+                      </p>
+                      <p class="info11">
+                        <p>E-mail: &nbsp &nbsp abdullah_sc@hotmail.com</p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>        
+            </section>
+          </div>      
+      </div>
 
-  <div class="wrapper">
-		<nav class="navbar">
-		  <div class="container">
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span> 
-		      </button>
-		      <h1>Abdullah Alamri</h1>
-		    </div>
-		    <div class="collapse navbar-collapse" id="myNavbar">
-		      <ul class="nav navbar-nav navbar-right">
-		        <li><a href="index.html">About</a></li>
-		        <li><a href="portfolio.html">Portfolio</a></li> 
-		        <li><a href="contact.html">Contact</a></li> 
-		      </ul>
-		    </div>
-		  </div>
-		</nav>  
-    
-
-    <div class="container-fluid main-content">
-      <div class="row">
-        <section id="contact" class="container col-xl-6 col-lg-9 col-md-9 col-sm-12 col-xs-12">
-          <div class="content">
-
-            <h2>Contact Me</h2>
-            <hr>
-            
-            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-              <div class="form-group">
-                <label for="usr">Name:</label>
-                <input type="text" class="form-control" id="usr" placeholder="Abdullah Alamri" required name="name">
-              </div>
-              <div class="form-group">
-                <label for="Email">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="abdullah_sc@hotmail.com" required name="mail">
-              </div>
-              <div class="form-group">
-                <label for="comment">Message:</label>
-                <textarea class="form-control" rows="10" id="comment" placeholder="Comment" required name="comment"></textarea>
-              </div>
-              <div class="form-group">
-                <label for="comment"></label>
-              </div>
-
-              <br>
-              
-              <button type="submit" class="btn btn-primary">Submit</button>
-
-            </form>
-          </div>  
-        </section>
-
-        
-        <section id="connect" class=" container col-md-3 col-sm-12 col-xs-12">
-          <div class="connect_margin">  
-            <h3>Connect with Me</h3>
-            <hr>
-						<a href="Assets/images/cv-jan-2019.pdf" target="_blank" data-type="document" role="button" id="comp-irlzpov0link" class="g-transparent-a b1link"><span id="comp-irlzpov0label" class="b1label"><img src="Assets/images/cv.png" alt="Github" height="60px" width="60px"></span></a>
-						<a href="https://github.com/AAlamri143" target="_blank" data-type="document" role="button" id="comp-irlzpov0link" class="g-transparent-a b1link"><span id="comp-irlzpov0label" class="b1label"></span><img src="Assets/images/github1.png" alt="Github" height="60px" width="60px"></span></a>
-						<a href="https://www.linkedin.com/in/abdulla-alamri-6a27a824/" target="_blank" data-type="document" role="button" id="comp-irlzpov0link" class="g-transparent-a b1link"><span id="comp-irlzpov0label" class="b1label"></span><img src="Assets/images/linkedin.gif" alt="LinkedIn" height="60px" width="60px"></span></a>
-						<a href="https://www.facebook.com/abdullah.s.alamri" target="_blank" data-type="document" role="button" id="comp-irlzpov0link" class="g-transparent-a b1link"><span id="comp-irlzpov0label" class="b1label"></span><img src="Assets/images/facebook.png" alt="Facebook" height="60px" width="60px"></span></a>
-						<a href="https://www.youtube.com/channel/UCGBom8n28boaJzy3ypuWVow?view_as=subscriber"><img src="Assets/images/youtube.png" alt="Youtube" height="60px" width="60px"></a> 
-					</div>        
-        </section>
-
-      </div>      
-    </div>
-
-    <footer>
-          <p><span> &copy; 2018 Alamri</span></p>
+      <footer>
+        <p><span> &copy; 2018 Alamri</span></p>
       </footer>
 
-  </div>
+    </div>
 
 
-</body>
+  </body>
 </html>
 
 
