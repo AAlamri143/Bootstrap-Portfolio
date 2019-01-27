@@ -289,7 +289,7 @@ button[type=submit]{
 		padding-left: 0%;
 		width: 105%;
 	}
-	.navbar-header h1 {
+	.navbar-header h1{
 		width: 70%;
 		text-align: center;
 		font-size: 250%;
@@ -298,6 +298,7 @@ button[type=submit]{
 		padding-right: -200px;
 		border-radius: 50%;
 		margin-left: 20%;
+
 	}
 	.about_me img{
 		margin-left: 4%;
