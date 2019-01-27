@@ -290,11 +290,14 @@ button[type=submit]{
 		width: 105%;
 	}
 	.navbar-header h1{
-		width: 100%;
+		width: 70%;
 		text-align: center;
 		font-size: 250%;
 		font-family: 'Great Vibes', cursive;
 		font-weight: bold;
+		padding-right: -200px;
+		border-radius: 50%;
+		margin-left: 20%;
 	}
 	.about_me img{
 		margin-left: 4%;
