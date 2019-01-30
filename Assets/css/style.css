@@ -87,7 +87,7 @@ body {
 .inside {
 	width: 250px;
 	height: 100px;
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-left: 9px;
 	margin-bottom: 80px;
 	-webkit-transition:all .1s linear;
@@ -275,9 +275,13 @@ button[type=submit]{
 	}
 	.inside {
 		width: 90%;
-		height: 200px;
+		height: 50px;
 		margin-left: 5%;
-		margin-bottom: 30%;
+		margin-bottom: 50%;
+	}
+	.port_name{
+		height: 100%;
+
 	}
 	.container #myNavbar{
 		position: relative;
